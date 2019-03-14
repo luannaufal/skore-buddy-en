@@ -1,0 +1,15 @@
+triggers:
+  - type: meya.catchall
+    properties:
+        detect_language: true
+        include_non_text_events: true
+states:
+    np_intent_found:
+        component: meya.random_text
+        properties:
+            responses:
+                - I didn't understand exactly what you want
+                - Could you repeat again with another words? I didn't get it
+                - Hm, was not clear what you really want. Would you mind to repeat with another words?
+    back_to_menu:
+        flow: menu

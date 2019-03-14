@@ -1,0 +1,11 @@
+triggers:
+  - type: meya.start_voice_chat
+states:
+    say_hi:
+        component: meya.text
+        properties:
+            text: "Hi! Welcome to Skore's recruiting process!!! :)\nI'm Skore Buddy and I'm here to help you."
+            speech: "Hi! Welcome to Skore's recruiting process!!! I'm Skore Buddy and I'm here to help you."
+
+    pre_auth_skore:
+        flow: pre_auth

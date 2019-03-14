@@ -1,0 +1,19 @@
+triggers:
+  - type: meya.keyword
+    properties:
+        ignorecase: false
+        keyword: upd4t3_sk0r3_login
+    priority: 100
+states:
+    schedule_pre_auth:
+        flow: meya.schedule
+        data:
+            tag: update_token
+            flow: pre_auth
+            cron: "0 */1 * * *"
+            timezone: UTC
+
+    success_schedule:
+        component: meya.text
+        properties:
+            text: "Schedule successfully implemented"

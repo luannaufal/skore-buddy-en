@@ -1,0 +1,5 @@
+triggers:
+  - type: meya.open_chat
+states:
+    go_to_voice_flow:
+        flow: start_voice_flow

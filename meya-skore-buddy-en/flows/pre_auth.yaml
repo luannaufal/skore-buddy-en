@@ -1,0 +1,23 @@
+states:
+    check_token_existance:
+        component: meya.conditional_exists
+        properties:
+            scope: bot
+            key: skore_token.token
+        transitions:
+            exists: exists_state
+            notexists: notexists_state
+
+    exists_state:
+        component: meya.pass
+        next: send_to_menu
+
+    notexists_state:
+        component: meya.pass
+        next: pre_auth_api
+
+    pre_auth_api:
+        component: pre_auth_skore
+
+    send_to_menu:
+        flow: menu

@@ -1,0 +1,17 @@
+triggers:
+  - type: meya.dialogflow
+    properties:
+        project_id: test-meya-dialogflow
+        intent: Materials
+states:
+    waiting_text:
+        component: meya.text
+        properties:
+            text: "Sure, I'll load the materials for you, just give me a second..."
+            speech: "Sure, I'll load the materials for you, just give me a second"
+
+    run_materials_list:
+        component: get_materials_list
+
+    back_to_menu:
+        flow: menu

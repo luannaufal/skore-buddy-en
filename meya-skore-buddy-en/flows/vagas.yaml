@@ -1,0 +1,14 @@
+triggers:
+  - type: meya.dialogflow
+    properties:
+        project_id: test-meya-dialogflow
+        intent: Jobs
+states:
+    jobs_list:
+        component: meya.text
+        properties:
+            text: "Those are the open jobs at Skore: \n- Data Engineer\n- Product Owner\n- Frontend Engineer\n- Devops/SRE Engineer\n- Backend Engineer\n- Customer Success Manager."
+            speech: "<speak> Those are the open jobs at Skore. Data Engineer, Product Owner, Frontend Engineer, Devops <say-as interpret-as=\"verbatim\">SRE</say-as> Engineer, Backend Engineer, Customer Success Manager.<s></speak>"
+
+    back_to_menu:
+        flow: menu

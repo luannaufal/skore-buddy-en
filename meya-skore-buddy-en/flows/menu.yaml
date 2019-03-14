@@ -1,0 +1,6 @@
+states:
+    text_state:
+        component: meya.text
+        properties:
+            text: "Tell me, what do you need? To check the open jobs, see the Skore's available materials, or a help?"
+            expect_user_action: true

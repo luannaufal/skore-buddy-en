@@ -1,0 +1,14 @@
+triggers:
+  - type: meya.dialogflow
+    properties:
+        project_id: test-meya-dialogflow
+        intent: Help
+states:
+    text_state:
+        component: meya.text
+        properties:
+            text: "I'm here to help you with any demands related to recruiting. I can assist you listing the open jobs we currently have, or listing the materials available for you to access and get to know more about the company and its business.\nTake a closer look on the open jobs, be sure they apply fully to you experience and carreer goals, and feel free to apply from there! It'll be amazing to count on you as a new Skorer!\nAlso, don't miss the chance to check our website: \nhttps://www.skore.io/ .\n"
+            speech: "<speak>I'm here to help you with any demands related to recruiting. I can assist you listing the open jobs we currently have, or listing the materials available for you to access and get to know more about the company and its business.\nTake a closer look on the open jobs, be sure they apply fully to you experience and carreer goals, and feel free to apply from there! It'll be amazing to count on you as a new Skorer!\nAlso, don't miss the chance to check our website: <say-as interpret-as=\"verbatim\">http://www.</say-as>skore<say-as interpret-as=\"verbatim\">.io</say-as>.</speak>"
+
+    go_to_menu:
+        flow: menu

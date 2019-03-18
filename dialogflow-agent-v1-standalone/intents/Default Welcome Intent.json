@@ -1,0 +1,56 @@
+{
+  "id": "0888febb-4cc8-4a39-a22d-35e61f1b24e1",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Hi! I\u0027m Skore Buddy and I\u0027m here to support you with Recruitment related questions. \nTell me, what do you need? To check the open jobs, see the Skore\u0027s available materials, or a help?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Open jobs"
+            },
+            {
+              "title": "Materials"
+            },
+            {
+              "title": "Help"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hello"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "0b364d5b-20f9-4568-8431-6869712467a3",
+    "data": [
+      {
+        "text": "your culture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "22ebbc6b-db3c-4f98-9b44-4fe67a96d193",
+    "data": [
+      {
+        "text": "Skore culture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "43e3b83a-3314-4b6c-af65-acba115e1962",
+    "data": [
+      {
+        "text": "culture",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b8a67acf-c8fe-4fde-8bd9-b23b64fc5848",
+    "data": [
+      {
+        "text": "tell me about Skore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2f776731-379d-49fd-a9b4-9a580dea3f62",
+    "data": [
+      {
+        "text": "I want the contents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2225e1da-100a-4a4b-8bbc-1eee0a3eb35f",
+    "data": [
+      {
+        "text": "I want the materials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8687c1d5-e8d7-451a-8020-cd0d31b2c7e8",
+    "data": [
+      {
+        "text": "about Skore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ff98410b-f2e7-4211-ac05-9ced86a85d56",
+    "data": [
+      {
+        "text": "contents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "153ee073-8c39-4678-812b-5e3ff450d76e",
+    "data": [
+      {
+        "text": "materials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

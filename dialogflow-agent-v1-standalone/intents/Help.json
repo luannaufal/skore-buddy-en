@@ -1,0 +1,45 @@
+{
+  "id": "e9405170-3b1c-4ae8-89b7-05243c4620bf",
+  "name": "Help",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003eI\u0027m here to help you with any demands related to recruiting. \nI can assist you listing the open jobs we currently have, \nor listing the materials available for you to access and get to know more about the company and its business.\nTake a closer look on the open jobs, be sure they apply fully to you experience and carreer goals, \nand feel free to apply from there! It\u0027ll be amazing to count on you as a new Skorer!\nAlso, don\u0027t miss the chance to check our website: \n\u003csay-as interpret-as\u003d\\\"verbatim\\\"\u003ehttp://www.\u003c/say-as\u003eskore\u003csay-as interpret-as\u003d\\\"verbatim\\\"\u003e.io\u003c/say-as\u003e.\u003c/speak\u003e",
+          "displayText": "I\u0027m here to help you with any demands related to recruiting. I can assist you listing the open jobs we currently have, or listing the materials available for you to access and get to know more about the company and its business.\nTake a closer look on the open jobs, be sure they apply fully to you experience and carreer goals, and feel free to apply from there! It\u0027ll be amazing to count on you as a new Skorer!\nAlso, don\u0027t miss the chance to check our website: \nhttps://www.skore.io/ ."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Open jobs"
+            },
+            {
+              "title": "Materials"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

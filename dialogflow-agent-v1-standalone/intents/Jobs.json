@@ -1,0 +1,68 @@
+{
+  "id": "b299a4b3-cb3f-4cc8-a09a-f9676202b219",
+  "name": "Jobs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Those are the jobs available at Skore! Choose one to know see more details."
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/data-engineer"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Data Engineering",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/product-owner"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Product Owner",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

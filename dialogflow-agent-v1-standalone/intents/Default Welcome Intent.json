@@ -7,7 +7,13 @@
     {
       "resetContexts": false,
       "action": "input.welcome",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
       "parameters": [],
       "messages": [
         {

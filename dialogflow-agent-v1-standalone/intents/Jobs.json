@@ -45,6 +45,71 @@
                 "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
                 "accessibilityText": "bg-image"
               }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/frontend-engineer"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Frontend Engineer",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/devopssre-engineer"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Devops/SRE Engineer",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/backend-engineer"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Backend Engineer",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://careers.skore.io/o/customer-success-manager"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Customer Success Manager",
+              "image": {
+                "url": "https://dgivdslhqe3qo.cloudfront.net/careers/photos/99882/thumb_photo_1549637015.png",
+                "accessibilityText": "bg-image"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Help"
+            },
+            {
+              "title": "Open jobs"
             }
           ]
         },

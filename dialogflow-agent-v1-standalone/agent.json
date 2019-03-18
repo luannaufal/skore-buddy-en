@@ -6,12 +6,7 @@
   "googleAssistant": {
     "googleAssistantCompatible": true,
     "welcomeIntentSignInRequired": false,
-    "startIntents": [
-      {
-        "intentId": "0ede6937-1ed6-464a-863a-8ae2caa3a777",
-        "signInRequired": false
-      }
-    ],
+    "startIntents": [],
     "systemIntents": [],
     "endIntentIds": [],
     "oAuthLinking": {
